@@ -57,7 +57,7 @@ def get_data_from_yahoo(reload_Dow_Jones=False):
             print('Already have {}'.format(ticker))
 
 
-#get_data_from_yahoo()
+##get_data_from_yahoo()
 
 def compile_dataDow_Jones():
     with open("Dow_Jones_tickers.pickle","rb") as f:
